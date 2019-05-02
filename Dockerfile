@@ -17,7 +17,7 @@ RUN npm install -g grunt-cli
 
 
         
-EXPOSE 3000
+EXPOSE 8080
 WORKDIR /app
 
 # Copying application code
