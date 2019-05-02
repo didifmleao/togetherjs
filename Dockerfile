@@ -23,4 +23,4 @@ WORKDIR /app
 # Copying application code
 COPY . /app
 RUN grunt build buildsite --no-hardlink
-RUN node devserver.js
+CMD node devserver.js
